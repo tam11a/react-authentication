@@ -6,15 +6,15 @@ import Main from "./Main";
 function App() {
   const queryClient = new QueryClient();
   return (
-    <AuthProvider>
-      <QueryClientProvider client={queryClient}>
+    <QueryClientProvider client={queryClient}>
+      <AuthProvider>
         <div className="App">
           <header className="App-header">
             <Main />
           </header>
         </div>
-      </QueryClientProvider>
-    </AuthProvider>
+      </AuthProvider>
+    </QueryClientProvider>
   );
 }
 

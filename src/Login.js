@@ -32,13 +32,13 @@ const Login = () => {
       >
         <input
           type="text"
-          placeholder="phone"
+          placeholder="Phone"
           {...register("phone")}
           style={inputStyle}
         />
         <input
           type="text"
-          placeholder="password"
+          placeholder="Password"
           {...register("password")}
           style={inputStyle}
         />
@@ -55,6 +55,6 @@ const Login = () => {
       </form>
     </div>
   );
-};
+};;;;
 
 export default Login;
